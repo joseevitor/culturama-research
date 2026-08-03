@@ -11,14 +11,14 @@
     </header>
     <section>
         <form action="" method="get">
-            <fieldset>
-                <!-- PERSONAL DATA -->
-                <legend>PERSONAL DATA</legend>
+            <!-- <fieldset>
+                
+                <legend>PERSONAL DATA</legend> 
                 <label for="userName">Name</label>
                 <input type="text" name="userName" required>
                 <br>
 
-                <!--  -->
+                
                 <label for="userAge">Age</label>
                 <input type="number" name="userAge" min="12" max="100" required>
 
@@ -35,6 +35,19 @@
                 <label for="userPhoto">Photo upload</label>
                 <input type="file" accept="image/*" name="userPhoto">
 
+            </fieldset> -->
+
+            <fieldset>
+                <legend>Profile</legend>
+                <p>Gender: </p>
+                <input type="radio" name="userGender" value="Femmale">
+                <label for="userGender">Femmale</label>
+                
+                <input type="radio" name="userGender" value="Male">
+                <label for="userGender">Male</label>
+                
+                <input type="radio" name="userGender" value="notInformed">
+                <label for="userGender">Rather not answer</label>
             </fieldset>
 
             <button type="submit">send</button>
