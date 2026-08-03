@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culturama Research</title>
+</head>
+<body>
+    <header>
+        <h1>Online Research</h1>
+    </header>
+    <section>
+        <form action="" method="get">
+            <fieldset>
+                <!-- PERSONAL DATA -->
+                <legend>PERSONAL DATA</legend>
+                <label for="userName">Name</label>
+                <input type="text" name="userName" required>
+                <br>
+
+                <!--  -->
+                <label for="userAge">Age</label>
+                <input type="number" name="userAge" min="12" max="100" required>
+
+                <br>
+                <label for="birthDate">Birth date</label>
+                <input type="date" name="birthDate">
+                <br>
+                <label for="userEmail">Email</label>
+                <input type="email" name="userEmail" required>
+                <br>
+                <label for="userPhoneNumber">Phone</label>
+                <input type="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + number without spaces">
+                <br>
+                <label for="userPhoto">Photo upload</label>
+                <input type="file" accept="image/*" name="userPhoto">
+
+            </fieldset>
+
+            <button type="submit">send</button>
+        </form> 
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>
