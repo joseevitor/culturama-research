@@ -11,9 +11,9 @@
     </header>
     <section>
         <form action="" method="get">
-            <!-- <fieldset>
+            <fieldset>
                 
-                <legend>PERSONAL DATA</legend>
+                <legend>PERSONAL DATA</legend> 
                 <label for="userName">Name</label>
                 <input type="text" name="userName" required>
                 <br>
@@ -35,10 +35,54 @@
                 <label for="userPhoto">Photo upload</label>
                 <input type="file" accept="image/*" name="userPhoto">
 
-            </fieldset> -->
+            </fieldset>
 
-            <label for="userCity">City</label>
-            <input type="text" name="userCity" required>
+            <fieldset>
+                <legend>Profile</legend>
+                <p>Gender: </p>
+                <input type="radio" name="userGender" value="Femmale">
+                <label for="userGender">Femmale</label>
+                
+                <input type="radio" name="userGender" value="Male">
+                <label for="userGender">Male</label>
+                
+                <input type="radio" name="userGender" value="notInformed">
+                <label for="userGender">Rather not answer</label>
+                <br>
+
+                <label for="userState">State</label>
+                <select name="userState" required>
+                    <option value="acre">Acre</option>
+                    <option value="alagoas">Alagoas</option>
+                    <option value="amapa">Amapá</option>
+                    <option value="amazonas">Amazonas</option>
+                    <option value="bahia">Bahia</option>
+                    <option value="ceara">Ceará</option>
+                    <option value="distritoFederal">Distrito Federal</option>
+                    <option value="espiritoSanto">Espirito Santo</option>
+                    <option value="goias">Goiás</option>
+                    <option value="maranhao">Maranhão</option>
+                    <option value="matoGrossodoSul">Mato Grosso do Sul</option>
+                    <option value="matoGrosso">Mato Grosso</option>
+                    <option value="minasGerais">Minas Gerais</option>
+                    <option value="para">Pará</option>
+                    <option value="paraiba">Paraíba</option>
+                    <option value="parana">Paraná</option>
+                    <option value="pernambuco">Pernambuco</option>
+                    <option value="piaui">Piauí</option>
+                    <option value="riodeJaneiro">Rio de Janeiro</option>
+                    <option value="rioGrandedoNorte">Rio Grande do Norte</option>
+                    <option value="rioGrandedoSul">Rio Grande do Sul</option>
+                    <option value="rondonia">Rondônia</option>
+                    <option value="roraima">Roraima</option>
+                    <option value="santaCatarina">Santa Catarina</option>
+                    <option value="saoPaulo">São Paulo</option>
+                    <option value="sergipe">Sergipe</option>
+                    <option value="tocantins">Tocantins</option>
+                </select>
+                <label for="userCity">City</label>
+                <input type="text" name="userCity" required>
+            </fieldset>
 
             <button type="submit">send</button>
         </form> 
