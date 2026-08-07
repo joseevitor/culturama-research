@@ -142,7 +142,21 @@
                 <textarea name="userComment" id="comment" placeholder="Write here..."></textarea>
             </fieldset>
 
-            <button type="submit">send</button>
+            <fieldset>
+                <legend>Confirmations</legend>
+                
+                <input type="checkbox" name="userLgpd" id="userLgpdTerm" value="accept" required>
+                <label for="userLgpdTerm">I accept to participate to this research</label><br>
+
+                <input type="checkbox" name="userGetResult" id="getResult" value="accept">
+                <label for="userLgpdTerm">Wish to receive the result on email</label>
+
+
+            </fieldset>
+
+            <button type="submit">Send</button>
+            <button type="reset">Clear</button>
+
         </form> 
     </section>
     <footer>
